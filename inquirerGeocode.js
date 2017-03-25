@@ -39,17 +39,17 @@ inquire.prompt([
     default: true
   }
 
-]).then(function(user){
+]).then(function (user) {
   if (user.confirm == true) {
 
-  // Then use the Google Geocoder to geocode the address
-  geocoder.geocode(user.address, function(err, data) {
+    // Then use the Google Geocoder to geocode the address
+    geocoder.geocode(user.address, function (err, data) {
 
-    // Then console log the result and stringify it.
-    // Note the argument of "2" being included in the JSON stringify. This makes the JSON output pretty.
-    // See link here: http://stackoverflow.com/questions/4810841/how-can-i-pretty-print-json-using-javascript
-    console.log(JSON.stringify(data, null, 2));
-  });
+      // Then console log the result and stringify it.
+      // Note the argument of "2" being included in the JSON stringify. This makes the JSON output pretty.
+      // See link here: http://stackoverflow.com/questions/4810841/how-can-i-pretty-print-json-using-javascript
+      console.log(JSON.stringify(data, null, 2));
+    });
   } else {
     console.log("Try again later.");
   }
