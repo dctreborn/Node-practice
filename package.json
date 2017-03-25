@@ -1,0 +1,34 @@
+{
+  "name": "inquirergeocode.js",
+  "version": "0.1.0",
+  "description": "the weather destination",
+  "main": "weatherdest.js",
+  "dependencies": {
+    "geocoder": "^0.2.3",
+    "lint": "^1.1.2",
+    "request": "^2.81.0",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rukaroa/Node-practice.git"
+  },
+  "keywords": [
+    "weather",
+    "destiantion",
+    "carlos",
+    "donald",
+    "star",
+    "wars"
+  ],
+  "author": "carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rukaroa/Node-practice/issues"
+  },
+  "homepage": "https://github.com/rukaroa/Node-practice#readme"
+}
