@@ -5,6 +5,9 @@ read - SELECT * FROM pets
 update - UPDATE pets SET name = "Alfreddo" WHERE type = "alligator dog"
 delete - DELETE FROM pets WHERE type = "alligator dog"
 
+schema.sql  - structure of database
+seeds.sql - initially populate database
+
 
 * Within your groups you are going to be creating a Node application called "Great-Bay" which allows users to create and bid on assorted items, tasks, jobs, or projects.
 
